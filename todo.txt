@@ -1,0 +1,5 @@
+TODO:
+  - change folder layout (engine, examples)
+  - easier installation
+  - better explanation
+  - video tutorial
