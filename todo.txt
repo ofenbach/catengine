@@ -3,3 +3,9 @@ TODO:
   - easier installation
   - better explanation
   - video tutorial
+  - finish exampleapp
+  - add automatic particle, gravity functions
+    - player.applyGravity(factor)
+    - class Dust extends Particle
+  - refactor code
+  - improve documentation
