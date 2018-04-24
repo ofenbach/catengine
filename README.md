@@ -12,6 +12,12 @@ To launch the engine, use GameStart.java, as you can see in the example folder.
   - different screens (intro, menu, game, options etc)
 - creating simple apps with animations, movements etc.
 
+# example
+Take a look at the example! You can run it on your android phone!  
+If you want to look at the source code, go to:  
+ExampleApp/app/src/main/java/ofenbach/exampleapp/  
+From there you can see the packages where the code is hidden.  
+
 # contact
 Questions? Email me: tim@ofenba.ch
 
