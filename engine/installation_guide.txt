@@ -1,5 +1,5 @@
-1.  Download framework and main folder
+1.  Download framework and main folder.
 2.  Create new android application via android studio.
 3.  Import both folders into YourApp/app/src/main/java/yourpackage/
 4.  Create your own screens and load them in GameStart.java (see example).
-5.  Your app now runs catengine!  
+5.  Your app now runs catengine!
