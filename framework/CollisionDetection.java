@@ -1,4 +1,4 @@
-package ofenbach.exampleapp.framework;
+package ofenbach.exampleapp.framework;	// change this to your package name
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
