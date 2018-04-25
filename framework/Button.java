@@ -1,6 +1,6 @@
-package ofenbach.exampleapp.framework;
+package ofenbach.exampleapp.framework;  // change this to your package name
 
-import ofenbach.exampleapp.main.TouchEvent;
+import ofenbach.exampleapp.main.TouchEvent; // change this to your package name
 
 /* Same as Image.java but can register touch */
 /* @creation:   March 2014      */
