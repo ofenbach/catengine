@@ -35,7 +35,7 @@ Maybe I will put this engine into a GUI so it works like scratch (https://scratc
 Questions? Email me: tim@ofenba.ch  
 
 # donations
-Every money that is being donated flows into the development:  
+Every penny that is being donated flows into the development:  
   
 Bitcoin: 31hwi7KqnCo2L4mmtm7FeQuarggVxMiRy8  
 Litecoin: LVtnsswBGixXtBRm6a3nJths3QfABmSDZZ  
