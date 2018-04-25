@@ -47,5 +47,5 @@ Ethereum: 0xE6af1aaB8b26c88b36Af9bd0Fc16ced85EdB13d7
 Thank you! :)  
 
 # expression of gratitude
-Thanks @TeCoGenie for helping me setup git etc!
+Thanks @TeCoGenie for helping me setup git etc!  
 https://github.com/TeCoGenie
