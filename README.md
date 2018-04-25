@@ -14,12 +14,14 @@ To launch the engine, use GameStart.java, as you can see in the example folder.
 
 # example
 Take a look at the example! You can run it on your android phone!  
+Just download ExampleApp, put it in Android Studio and run i!  
 If you want to look at the source code, go to:  
 ExampleApp/app/src/main/java/ofenbach/exampleapp/  
 From there you can see the packages where the code is hidden.  
+Or just go to the code only folder.  
 
 # contact
-Questions? Email me: tim@ofenba.ch
+Questions? Email me: tim@ofenba.ch  
 
 # donations
 Bitcoin: TODO  
