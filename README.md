@@ -29,3 +29,6 @@ Questions? Email me: tim@ofenba.ch
 Bitcoin: TODO  
 Litecoin: TODO  
 Ethereum: TODO
+
+# expression of gratitude
+Thanks to D.S. for helping me setup git etc!
