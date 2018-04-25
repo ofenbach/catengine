@@ -6,9 +6,6 @@ You need the main and framework folder. Fix the imports depending on your main p
 To launch the engine, use GameStart.java, as you can see in the example folder.  
 Different Guide: engine/installation_guide.txt
 
-
-
-
 # use cases
 - creating simple 2D games
   - animations/movements
