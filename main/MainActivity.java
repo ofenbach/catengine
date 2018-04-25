@@ -1,18 +1,19 @@
-package catgames.main;
+package ofenbach.exampleapp.main;	// change this to your package name
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.RelativeLayout;
 
-import catgames.views.GameStart;
-
-/* DONT CHANGE ANYTHING HERE IF YOU DONT KNOW WHAT YOU ARE DOING! THIS IS THE HEART OF THE ENGINE! BEWARE! */
+/* @creation:   February 2014   */
+/* @update:     25.4.2018       */
+/* @author:     Tim B. Ofenbach */
 
 public class MainActivity extends Activity {
 
-    RelativeLayout layout;  // ignore this
-    MainView view;          // to display everything
-    GameStart gamestart;    // to launch your game
+    /** ONLY CHANGE THIS IF YOU KNOW WHAT YOU ARE DOING! **/
+
+    RelativeLayout layout;
+    MainView view;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +25,7 @@ public class MainActivity extends Activity {
         setContentView(layout);
 
         view = new MainView();
-        layout.addView(view);   // start displaying
+        layout.addView(view);
 
     }
 

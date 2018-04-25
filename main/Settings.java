@@ -1,6 +1,9 @@
-package catgames.main;    // TODO: Change this one to your main package
+package ofenbach.exampleapp.main;	// change this to your package name
 
-/* CLASS WITH TOOLS (e.g. random) AND SAVINGS */
+/* class with mostly statics, to save your app data and get device information */
+/* @creation:   September 2016  */
+/* @update:     25.4.2018       */
+/* @author:     Tim B. Ofenbach */
 
 import android.content.Context;
 
