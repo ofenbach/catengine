@@ -1,14 +1,19 @@
 TODO:
-  - change folder layout (engine, examples)
+
+  ENGINE:
   - easier installation
-  - better explanation
-  - (video tutorial)
-  - finish exampleapp
+  - add relative/automatic positions function (like automatic scaling)
   - add automatic particle, gravity functions
     - player.applyGravity(factor)
     - class Dust extends Particle
-  - refactor code
-  - improve documentation
-  - improve png load (R.drawable.player.png -> player.png)
-  - figure out license use
-  - (add watermark version)
+  - improve png load (R.drawable.player.png -> player.png)
+  - refactor code -> reorganize packages?
+
+  GIT:
+    - figure out license use
+    - (add watermark version)
+    - improve documentation
+      - better code explanations / comments
+    - change folder layout (engine, examples)
+    - finish exampleapp
+    - add donation wallets
