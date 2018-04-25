@@ -27,6 +27,8 @@ Or just go to the code only folder.
 - add automatic positions function (screen independent)  
 - add automatic particle, gravity functions  
 - reduce code (make it even simpler to use)  
+If you want to test out some new features that aren't public yet,  
+check out the develop-branch!  
 
 # future plans
 Maybe I will put this engine into a GUI so it works like scratch (https://scratch.mit.edu/).  
