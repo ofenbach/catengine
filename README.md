@@ -6,12 +6,12 @@ You need the main and framework folder. Fix the imports depending on your main p
 To launch the engine, use GameStart.java, as you can see in the example folder.  
 Different Guide: engine/installation_guide.txt
 
-# use cases
-- creating simple 2D games
+# features
+- creating 2D games
   - animations/movements
   - particle
   - different screens (intro, menu, game, options etc)
-- creating simple apps with animations, movements etc.
+- creating apps with animations, movements etc.
 
 # example
 Take a look at the example! You can run it on your android phone!  
