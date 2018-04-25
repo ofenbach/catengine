@@ -1,0 +1,69 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:5:5-21:19
+	android:supportsRtl
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:11:9-40
+activity#ofenbach.exampleapp.main.MainActivity
+ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:12:9-20:20
+	android:screenOrientation
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:14:13-50
+	android:theme
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Tim Ofenbach\AndroidStudioProjects\ExampleApp\app\src\main\AndroidManifest.xml
