@@ -1,9 +1,9 @@
-package ofenbach.exampleapp.framework;
+package ofenbach.exampleapp.framework;  // change this to your package name
 
 import android.media.AudioManager;
 import android.media.SoundPool;
 
-import ofenbach.exampleapp.main.Settings;
+import ofenbach.exampleapp.main.Settings;   // change this to your package name
 
 /* to create simple sounds in your app (e.g. explosions, gunshots). */
 /* @creation:   May 2014        */
