@@ -2,10 +2,13 @@ TODO:
   - change folder layout (engine, examples)
   - easier installation
   - better explanation
-  - video tutorial
+  - (video tutorial)
   - finish exampleapp
   - add automatic particle, gravity functions
     - player.applyGravity(factor)
     - class Dust extends Particle
   - refactor code
   - improve documentation
+  - improve png load (R.drawable.player.png -> player.png)
+  - figure out license use
+  - (add watermark version)
