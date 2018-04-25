@@ -14,6 +14,6 @@ TODO:
     - (add watermark version)
     -̶ ̶̶i̶̶m̶̶p̶̶r̶̶o̶̶v̶̶e̶̶ ̶̶d̶̶o̶̶c̶̶u̶̶m̶̶e̶̶n̶̶t̶̶a̶̶t̶̶i̶̶o̶̶n̶
       -̶ ̶̶b̶̶e̶̶t̶̶t̶̶e̶̶r̶̶ ̶̶c̶̶o̶̶d̶̶e̶̶ ̶̶e̶̶x̶̶p̶̶l̶̶a̶̶n̶̶a̶̶t̶̶i̶̶o̶̶n̶̶s̶̶ ̶/̶ ̶̶c̶̶o̶̶m̶̶m̶̶e̶̶n̶̶t̶̶s̶
-    - change folder layout (engine, examples)
+    -̶ ̶̶c̶̶h̶̶a̶̶n̶̶g̶̶e̶̶ ̶̶f̶̶o̶̶l̶̶d̶̶e̶̶r̶̶ ̶̶l̶̶a̶̶y̶̶o̶̶u̶̶t̶̶ ̶(̶e̶̶n̶̶g̶̶i̶̶n̶̶e̶̶,̶̶ ̶̶e̶̶x̶̶a̶̶m̶̶p̶̶l̶̶e̶̶s̶)
     - improve exampleapp (add buttons, sounds, music, different screens while keeping the code simple)
-    - add donation wallets
+    - add donation wallets  
