@@ -26,9 +26,11 @@ Or just go to the code only folder.
 Questions? Email me: tim@ofenba.ch  
 
 # donations
+Every money that is being donated flows into the development:  
 Bitcoin: 31hwi7KqnCo2L4mmtm7FeQuarggVxMiRy8  
 Litecoin: LVtnsswBGixXtBRm6a3nJths3QfABmSDZZ  
-Ethereum: 0xE6af1aaB8b26c88b36Af9bd0Fc16ced85EdB13d7
+Ethereum: 0xE6af1aaB8b26c88b36Af9bd0Fc16ced85EdB13d7  
+Thank you! :)  
 
 # expression of gratitude
 Thanks @TeCoGenie for helping me setup git etc!
