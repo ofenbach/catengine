@@ -22,6 +22,15 @@ ExampleApp/app/src/main/java/ofenbach/exampleapp/
 From there you can see the packages where the code is hidden.  
 Or just go to the code only folder.  
 
+# future updates
+- easier installation  
+- add automatic positions function (screen independent)  
+- add automatic particle, gravity functions  
+- reduce code  
+
+# future plans
+Maybe I will put this engine into a GUI so it works like scratch (https://scratch.mit.edu/).  
+
 # contact
 Questions? Email me: tim@ofenba.ch  
 
