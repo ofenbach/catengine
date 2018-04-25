@@ -16,7 +16,7 @@ Different Guide: engine/installation_guide.txt
 # example
 Take a look at the example! You can run it on your android phone!  
   
-Just download ExampleApp, put it in Android Studio and run i!  
+Just download ExampleApp, put it in Android Studio and run it!  
 If you want to look at the source code, go to:  
 ExampleApp/app/src/main/java/ofenbach/exampleapp/  
 From there you can see the packages where the code is hidden.  
