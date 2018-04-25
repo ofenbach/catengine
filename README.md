@@ -1,5 +1,5 @@
 # catengine
-Easy to use 2D Framework for Android.
+Easy to use 2D Framework for Android, originally made in 2014.
 
 # usage
 You need the main and framework folder. Fix the imports depending on your main package.  
