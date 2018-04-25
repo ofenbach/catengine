@@ -28,6 +28,4 @@ Questions? Email me: tim@ofenba.ch
 # donations
 Bitcoin: TODO  
 Litecoin: TODO  
-Ethereum: TODO (pls dont send any ERC20 tokens, as they may not arrive)  
-Bitcoin Cash: TODO  
-Zcash: TODO  
+Ethereum: TODO
