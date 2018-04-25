@@ -1,12 +1,12 @@
-package ofenbach.exampleapp.framework;
+package ofenbach.exampleapp.framework;	// change this to your package name
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.graphics.Paint;
 
-import ofenbach.exampleapp.main.MainView;
-import ofenbach.exampleapp.main.Settings;
+import ofenbach.exampleapp.main.MainView;	// change this to your package name
+import ofenbach.exampleapp.main.Settings;	// change this to your package name
 
 /* able to display .png pictures*/
 /* @creation:   February 2014   */
