@@ -1,37 +1,41 @@
-package catgames.framework;   // TODO: Change this one, depending on your package name
+package ofenbach.exampleapp.framework;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
 import android.graphics.Matrix;
 import android.graphics.Paint;
 
-import catgames.gamename.MainView;    // TODO: Change these, depending on your package names
-import catgames.gamename.Settings; 
+import ofenbach.exampleapp.main.MainView;
+import ofenbach.exampleapp.main.Settings;
+
+/* able to display .png pictures*/
+/* @creation:   February 2014   */
+/* @update:     25.4.2018       */
+/* @author:     Tim B. Ofenbach */
 
 public class Image {
 
-	// Image file & path (e.g. R.raw.player.png)
+	// Bitmap & Path
 	Bitmap bitmap;
 	int path;
 	
 	// Position & Angle
-	double x = 0;
-	double y = 0;
+	public double x = 0;
+	public double y = 0;
 	int angle;
 	
-	// Matrix & Paint (matrix for rotation, paint for transparency)
+	// Matrix & Paint
 	Matrix m;
 	Paint p;
 
-
+	
 	/* CONSTRUCTOR */
 	public Image(int path) {
 		
 		// Parameter
 		this.path = path;
 		
-		// Instances
+		// Erzeugung
 		m = new Matrix();
 		p = new Paint();
 		
@@ -52,13 +56,13 @@ public class Image {
     	m.postTranslate((float) x, (float) y);
     	
 	    // Draw
-		  MainView.global_canvas.drawBitmap(bitmap, m, p);
+		MainView.global_canvas.drawBitmap(bitmap, m, p);
 	    
 	}
 	
 	
 	/* SCALING */
-	public void scale(double factor) {    // automatic scaling on every screensize / ratio
+	public void scale(double factor) {
 		
 		// Calculation
 		double relativewidth = 1080 / (factor * bitmap.getWidth());
@@ -70,10 +74,10 @@ public class Image {
 		bitmap = Bitmap.createScaledBitmap(bitmap, (int) width, (int) height, false);
 		
 	}
-	public void scaleFullscreen() {   // used for backgrounds
+	public void scaleFullscreen() {
 		bitmap = Bitmap.createScaledBitmap(bitmap, Settings.getScreenWidth(), Settings.getScreenHeight(), false);
 	}
-	public void scale() {   // automatic scaling, oriented by scratch (https://scratch.mit.edu/)
+	public void scale() {
 		
 		/* SCALING FOR SCRATCH */
 		
@@ -87,7 +91,7 @@ public class Image {
 		
 	}
 
-	public void scaleHalf() {     // same as scratch scaling but half factor
+	public void scaleHalf() {
 		// fuer bilder die doppelt so gross sind (halbe pixel)
 		double ratio = (double) bitmap.getHeight() / (double) bitmap.getWidth();
 		double realwidth = Settings.getScreenWidth() * ((double) bitmap.getWidth() / 480);
@@ -102,7 +106,7 @@ public class Image {
 	public void setAlpha(int alpha) {
 		p.setAlpha(alpha);
 	}
-	public void move(double distance) {     // absolut distance movement, depending on the objects angle
+	public void move(double distance) {
 
 		// Calculation
 		double distanceX = distance * Math.sin(angle);

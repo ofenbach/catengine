@@ -1,28 +1,33 @@
-package catgames.framework;
+package ofenbach.exampleapp.framework;
 
 import android.media.MediaPlayer;
 
-import catgames.main.Settings;    // change this one to your main package
+import ofenbach.exampleapp.main.Settings;
+
+/* Music.java to play simple background music in your app */
+/* @creation:   May 2014        */
+/* @update:     25.4.2018       */
+/* @author:     Tim B. Ofenbach */
 
 public class Music {
 
 	// MediaPlayer
 	MediaPlayer mediaplayer;
 	
-	// Path
+	// Pfad
 	int path;
 	boolean isPrepared;
 	
 	
-	/* CONSTRUCTOR */
+	/* KONSTRUKTOR */
 	public Music(int path) {
 		
 		this.path = path;
 		
-		// load music
+		// Musik laden
 		mediaplayer = new MediaPlayer();
 		mediaplayer = MediaPlayer.create(Settings.context, path);
-		// OPTIONAL: mediaplayer.setLooping(true);
+		//mediaplayer.setLooping(true);
 		
 	}
 	
@@ -50,13 +55,13 @@ public class Music {
 	}
 	
 	
-	/* VOLUME */
+	/* LAUTSTAERKE */
 	public void setVolume(float volume) {
 		mediaplayer.setVolume(volume, volume);
 	}
     
 	
-	/* LOOP */
+	/* WIEDERHOLUNG */
 	public void setLooping(boolean looping) {
 		mediaplayer.setLooping(looping);
 	}

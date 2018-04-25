@@ -1,8 +1,13 @@
-package catgames.framework;
+package ofenbach.exampleapp.framework;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.Rect;
+
+/* used by Image.java to detect collision between two images. */
+/* @creation:   September 2016	*/
+/* @update:     25.4.2018  	 	*/
+/* @author:     Tim B. Ofenbach */
 
 public class CollisionDetection {
 
