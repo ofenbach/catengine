@@ -1,8 +1,8 @@
-package ofenbach.exampleapp.framework;
+package ofenbach.exampleapp.framework;	// change this to your package name
 
 import android.media.MediaPlayer;
 
-import ofenbach.exampleapp.main.Settings;
+import ofenbach.exampleapp.main.Settings;	// change this to your package name
 
 /* Music.java to play simple background music in your app */
 /* @creation:   May 2014        */
