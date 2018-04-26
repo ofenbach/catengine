@@ -9,6 +9,11 @@ import java.util.List;
 /* @author:     Tim B. Ofenbach */
 
 public abstract class Screen  {
+    
+    /* Explanation: */
+    /* acts as a superclass for your screens. */
+    /* here are all the screens which were created stored  */
+    /* MainView displays the right screen (stored at Camera) via this list */
 
     public static List<Screen> screens = new ArrayList<>(); // child list (used by Camera.java)
 
