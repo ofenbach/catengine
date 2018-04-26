@@ -1,24 +1,22 @@
-# catengine 1.0
+# catengine
 Easy to use 2D Framework for Android, originally made in 2014, recoded 2018 and published to github.
 
 # features
 - creating 2D games/apps  
-  - animations/movements/rotation of images (and much more)  
-  - automatic scaling for each device size  
-  - music&sound support  
-  - costum screens support (e.g. intro-, menu-, game-, optionsscreen)  
+  - animation/movement/rotation of images  
+  - automatic scaling for every device size  
+  - music & sound support  
+  - multiple screens support (e.g. intro-, menu-, game-, optionsscreen)  
 
 # example
 Take a look at the example! You can run it on your android phone!  
-Just download ExampleApp, import it into Android Studio and run it!  
-  
-Source code available under:  
-ExampleApp/app/src/main/java/ofenbach/exampleapp/   
+Just download the ExampleApp, import it into your Android Studio,  
+plug in your phone and press play!   
 
 # guide
 1. Download the engine folder.  
 2. Import the folder into your source code path.  
-3. Fix the imports depending on your main package name.  
+3. Fix the imports depending on your app/package name.  
 4. Create GameStart.java to load your screens.  
 6. Your app now runs catengine!  
   
