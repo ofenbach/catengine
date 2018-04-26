@@ -1,5 +1,5 @@
 # catengine
-Easy to use 2D Framework for Android, originally made in 2014, recoded 2018 and published to github.
+Easy to use 2D engine for android, originally made in 2014, recoded 2018 and published to github.
 
 # features
 - creating 2D games/apps  
