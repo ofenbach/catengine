@@ -13,6 +13,10 @@ import ofenbach.exampleapp.views.GameStart;	// change this to your package name
 public class MainView extends View {
 
     /** ONLY CHANGE THIS IF YOU KNOW WHAT YOU ARE DOING! **/
+    
+    /* Explanation: */
+    /* This Class is the real screen thats being displayed by android os. */
+    /* It selects the current screen and displays/repeats it's repeat() method. */
 
     public static Canvas global_canvas;     // used by Image.java to draw
 
