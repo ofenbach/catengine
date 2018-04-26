@@ -11,6 +11,10 @@ import android.widget.RelativeLayout;
 public class MainActivity extends Activity {
 
     /** ONLY CHANGE THIS IF YOU KNOW WHAT YOU ARE DOING! **/
+    
+    /* Explanation: */
+    /* The app starts here. */
+    /* From here, the MainView starts and selects the screen to display */
 
     RelativeLayout layout;
     MainView view;
@@ -25,7 +29,7 @@ public class MainActivity extends Activity {
         setContentView(layout);
 
         view = new MainView();
-        layout.addView(view);
+        layout.addView(view);   // MainView starts
 
     }
 
