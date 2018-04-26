@@ -34,6 +34,7 @@ Just follow the explanation comments starting in MainActivity.java!
 # future updates 🔜
 + add automatic positions (screen independent) ✅  
 + add automatic particle, gravity functions ✅  
++ better touch functions 👇  
 + savings support ⚒️  
 + reduce code (make it even simpler to use)  ⚒️
 
