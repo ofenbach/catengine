@@ -1,6 +1,4 @@
 # catengine 😼
-Easy to use 2D engine for android, originally made in 2014, recoded 2018 and published to github.  
- 
 catengine 😺 is a powerful & easy to use engine for Android.  
 It encapsulates the functions commonly used in 2D-game development,  
 like gravity, sounds, animations, particles.  
