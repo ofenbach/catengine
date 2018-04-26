@@ -22,11 +22,12 @@ ExampleApp/app/src/main/java/ofenbach/exampleapp/
 4. Create GameStart.java to load your screens.  
 6. Your app now runs catengine!  
   
-alternative guide: engine/installation_guide.txt
+Alternative guide: engine/installation_guide.txt
 
 # future updates
 + add automatic positions (screen independent)  
 + add automatic particle, gravity functions  
++ savings support
 - reduce code (make it even simpler to use)  
 
 It is possible to test out some new features that aren't public yet,  
