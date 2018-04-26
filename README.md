@@ -23,12 +23,15 @@ ExampleApp/app/src/main/java/ofenbach/exampleapp/
 6. Your app now runs catengine!  
   
 Alternative guide: engine/installation_guide.txt
+  
+Understanding how the engine works is pretty simple.  
+Just follow the explanation comments starting in MainActivity.java!  
 
 # future updates
 + add automatic positions (screen independent)  
 + add automatic particle, gravity functions  
 + savings support
-- reduce code (make it even simpler to use)  
++ reduce code (make it even simpler to use)  
 
 It is possible to test out some new features that aren't public yet,  
 check out the develop-branche!  
