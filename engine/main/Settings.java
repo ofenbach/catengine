@@ -15,6 +15,8 @@ public class Settings {
     public static int screen_width;
 
     public static boolean sound_on = true;
+    
+    /** ADD YOUR SAVES HERE **/
 
 
     public static Context getContext() {
