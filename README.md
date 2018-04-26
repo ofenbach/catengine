@@ -1,44 +1,42 @@
-# catengine
+# catengine 1.0
 Easy to use 2D Framework for Android, originally made in 2014, recoded 2018 and published to github.
 
-# usage
-You need the main and framework folder. Fix the imports depending on your main package.  
-To launch the engine, use GameStart.java, as you can see in the example folder.  
-Different Guide: engine/installation_guide.txt
-
 # features
-- creating 2D games
-  - animations/movements
-  - particle
-  - different screens (intro, menu, game, options etc)
-- creating apps with animations, movements etc.
+- creating 2D games/apps  
+  - animations/movements/rotation of images (and much more)  
+  - automatic scaling for each device size  
+  - music&sound support  
+  - costum screens support (e.g. intro-, menu-, game-, optionsscreen)  
 
 # example
 Take a look at the example! You can run it on your android phone!  
   
-Just download ExampleApp, put it in Android Studio and run it!  
-If you want to look at the source code, go to:  
-ExampleApp/app/src/main/java/ofenbach/exampleapp/  
-From there you can see the packages where the code is hidden.  
-Or just go to the code only folder.  
+Just download ExampleApp, import it into Android Studio and run it!  
+Source code available under:  
+ExampleApp/app/src/main/java/ofenbach/exampleapp/   
+
+# guide
+1. Download the engine folder.  
+2. Import the folder into your source code path.  
+3. Fix the imports depending on your main package name.  
+4. Create GameStart.java to load your screens.  
+6. Your app now runs catengine!  
+  
+alternative guide: engine/installation_guide.txt
 
 # future updates
-- easier installation  
-- add automatic positions function (screen independent)  
-- add automatic particle, gravity functions  
++ add automatic positions (screen independent)  
++ add automatic particle, gravity functions  
 - reduce code (make it even simpler to use)  
 
-If you want to test out some new features that aren't public yet,  
+It is possible to test out some new features that aren't public yet,  
 check out the develop-branche!  
-
-# future plans
-Maybe I will put this engine into a GUI so it works like scratch (https://scratch.mit.edu/).  
 
 # contact
 Questions? Email me: tim@ofenba.ch  
 
 # donations
-Every penny that is being donated flows into the development:  
+If you feel like supporting my work, feel free to donate:  
   
 Bitcoin: 31hwi7KqnCo2L4mmtm7FeQuarggVxMiRy8  
 Litecoin: LVtnsswBGixXtBRm6a3nJths3QfABmSDZZ  
