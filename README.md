@@ -10,8 +10,8 @@ Easy to use 2D Framework for Android, originally made in 2014, recoded 2018 and 
 
 # example
 Take a look at the example! You can run it on your android phone!  
-  
 Just download ExampleApp, import it into Android Studio and run it!  
+  
 Source code available under:  
 ExampleApp/app/src/main/java/ofenbach/exampleapp/   
 
