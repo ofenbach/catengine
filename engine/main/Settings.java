@@ -11,7 +11,7 @@ public class Settings {
 
     /* Explanation: */
     /* At the start of the app, device information (screen size) are transferred here, so they can be accesed from everywhere. */
-    /* You should also save your app data (e.g. gamescore) here. Save support comes in the next version. */
+    /* You should also save your app data (e.g. gamescore) here. Official Save Support soon. */
     
     public static Context context;
 
