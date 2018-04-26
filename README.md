@@ -1,5 +1,5 @@
 # catengine 😼
-catengine 😺 is a powerful & easy to use engine for Android.  
+catengine is a powerful & easy to use engine for Android.  
 It encapsulates the functions commonly used in 2D-game development,  
 like gravity, sounds, animations, particles.  
 
