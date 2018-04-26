@@ -16,7 +16,7 @@ public class MainView extends View {
     
     /* Explanation: */
     /* This Class is the real screen thats being displayed by android os. */
-    /* It selects the current screen and displays/repeats it's repeat() method. */
+    /* It selects the current screen (saved in Camera) and repeats it's repeat() method. */
 
     public static Canvas global_canvas;     // used by Image.java to draw
 
@@ -43,7 +43,7 @@ public class MainView extends View {
 
         Screen.screens.get(Camera.currentscreen_id).repeat();   // display current screen
 
-        invalidate();   // repeat
+        invalidate();   // repeat this method
 
     }
 
