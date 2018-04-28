@@ -39,9 +39,6 @@ Just follow the explanation comments starting in MainActivity.java!
 It is possible to test out some new features that aren't public yet,  
 check out the develop-branche!  
 
-# contact ✉️
-Questions? Email me: tim@ofenba.ch  
-
 # donations 💸
 If you feel like supporting my work, feel free to donate:  
   
@@ -51,6 +48,5 @@ If you feel like supporting my work, feel free to donate:
   
 Thank you! :)  
 
-# expression of gratitude  🤗
-Thanks @TeCoGenie for helping me setup git etc!  
-https://github.com/TeCoGenie
+# contact ✉️
+Questions? Email me: tim@ofenba.ch  
