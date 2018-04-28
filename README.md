@@ -19,15 +19,10 @@ plug in your phone and press play!
 
 # guide 📖
 1. Download the engine folder.  
-2. Import the folder into your source code path.  
+2. Import the folder into your app project (@src).  
 3. Fix the imports depending on your app/package name.  
 4. Create GameStart.java to load your screens.  
 6. Your app now runs catengine!  
-  
-Alternative guide: engine/installation_guide.txt
-  
-Understanding how the engine works is pretty simple.  
-Just follow the explanation comments starting in MainActivity.java!  
 
 # future updates 🔜
 + add automatic positions (screen independent) ✅  
