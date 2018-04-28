@@ -1,5 +1,6 @@
 # catengine developer 😼
-welcome to the developer-branch
+welcome to the developer-branch  
+full changelog: engine/main/MainActivity.java
 
 # new features 💪
 + gravity support ✅  
