@@ -15,7 +15,10 @@ like gravity, sounds, animations, particles.
 # example 👀
 Take a look at the example! You can run it on your android phone! ✌️  
 Just download the ExampleApp, import it into your Android Studio,  
-plug in your phone and press play!   
+plug in your phone and press play!  
+  
+This game was made with catengine too:  
+https://play.google.com/store/apps/details?id=catgames.engine  
 
 # guide 📖
 1. Download the engine folder.  
