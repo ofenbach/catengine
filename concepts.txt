@@ -1,6 +1,0 @@
-Change R.drawable.player -> player in Image(path).
-turn path from int to string!
-then convert string to int dependent on the id!!!
-
-new Image(R.drawable.player) -> Image("player")
-if file name is player
