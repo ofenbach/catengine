@@ -1,14 +1,17 @@
 # catengine developer edition 😼
-welcome to the developer-branch  
-full changelog: engine/main/MainActivity.java  
+Welcome to the developer-branch!  
+From here you can check out some of the new features that aren't available yet.  
+It is not recommenced to use this version in your release apps, as there will be bugs.  
+
+See full changelog: engine/main/MainActivity.java  
 
 # new features 💪
 + gravity support ✅  
 + save support ✅  
-+ particle support ✅  
-+ automatic positions (screen independent) ✅  
++ sprite support ✅  
++ automatic positions (resolution independent) ✅  
 + better touch functions ✅  
-+ reduce code (make it even simpler to use)  ⚒️  
++ IDE Documentation support ⚒️  
 
 # example 👀
 The new example has all the features that are available!  
@@ -22,10 +25,9 @@ The new example has all the features that are available!
 
 # planned features 🤔
 + GUI version 😍  
-  + simple drag&drop to create objects 🖱️  
+  + simple drag&drop to create apps 🖱️  
   + simple kid-friendly coding 👶  
-+ even better particles  
-+ even simpler to use (code version 🤓) 
++ new effects (e.g. particles, explosions, fire)  
 
 # donations 💸
 If you feel like supporting my work, feel free to donate:  
@@ -38,10 +40,3 @@ Thank you! ❤️
 
 # contact ✉️
 Questions? Email me: tim@ofenba.ch  
-
-# todo
-+ add jetpack to example
-+ add menu
-+ add more animation
-+ decide between underscore or camelCase
-+ improve code
