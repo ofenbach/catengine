@@ -38,3 +38,10 @@ Thank you! ❤️
 
 # contact ✉️
 Questions? Email me: tim@ofenba.ch  
+
+# todo
++ add jetpack to example
++ add menu
++ add more animation
++ decide between underscore or camelCase
++ improve code
