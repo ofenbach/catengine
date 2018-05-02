@@ -1,6 +1,7 @@
 # catengine 😼
 catengine is a powerful & easy to use engine for android.  
-It encapsulates the functions commonly used in 2D-game development, like gravity, sprites, touch functions, music, animations ...  
+It encapsulates the functions commonly used in 2D-game development,  
+like gravity, sprites, touch functions, music, animations ...  
 
 # features 💪
 - create fast&easy 2D games/apps  
