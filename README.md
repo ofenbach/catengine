@@ -1,15 +1,14 @@
 # catengine 😼
-catengine is a powerful & easy to use engine for Android.  
-It encapsulates the functions commonly used in 2D-game development,  
-like gravity, sounds, animations, particles.  
+catengine is a powerful & easy to use engine for android.  
+It encapsulates the functions commonly used in 2D-game development, like gravity, sprites, touch functions, music, animations ...  
 
 # features 💪
-- creating 2D games/apps  
-  - animation/movement/rotation of images 🕹️  
-  - automatic scaling for every device size 📱  
+- create fast&easy 2D games/apps  
+  - animation/movement/rotation etc of images 🕹️  
+  - automatic scaling for every resolution 📱  
   - music & sound support 🔊  
   - multiple screens support (e.g. intro-, menu-, game-, optionsscreen)  
-- completly customizable 🔧
+- completly customizable 🔧  
 
 # example 👀
 Take a look at the example! You can run it on your android phone! ✌️  
@@ -23,7 +22,8 @@ https://play.google.com/store/apps/details?id=catgames.engine
 1. Download the engine folder.  
 2. Import the folder into your app project (@src).  
 3. Fix the imports depending on your app/package name.  
-4. Create GameStart.java to load your screens.  
+4. Code your screens.  
+5. Create GameStart.java to load your screens.  
 6. Your app now runs catengine!  
 
 # future updates 🔜
