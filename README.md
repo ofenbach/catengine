@@ -9,7 +9,6 @@ like gravity, sounds, animations, particles.
   - automatic scaling for every device size 📱  
   - music & sound support 🔊  
   - multiple screens support (e.g. intro-, menu-, game-, optionsscreen)  
-  - supports up to 120FPS 🏎️  
 - completly customizable 🔧
 
 # example 👀
@@ -32,7 +31,7 @@ https://play.google.com/store/apps/details?id=catgames.engine
 + add automatic gravity functions ✅  
 + better touch functions ✅  
 + savings support ✅  
-+ reduce code (make it even simpler to use)  ⚒️  
++ add IDE documentation support ⚒️  
 
 It is possible to test out some new features that aren't public yet,  
 check out the develop-branche!  
