@@ -11,13 +11,6 @@ like gravity, sprites, touch functions, music, animations ...
   - multiple screens support (e.g. intro-, menu-, game-, optionsscreen)  
 - completly customizable 🔧  
 
-# example 👀
-Take a look at the example! You can run it on your android phone! ✌️  
-Just download the ExampleApp, import it into your Android Studio, plug in your phone and press play!  
-
-This game was made with catengine too:  
-https://play.google.com/store/apps/details?id=catgames.engine  
-
 # guide 📖
 1. Download the engine folder.  
 2. Import the folder into your app project (@src).  
@@ -25,6 +18,13 @@ https://play.google.com/store/apps/details?id=catgames.engine
 4. Code your screens.  
 5. Create GameStart.java to load your screens.  
 6. Your app now runs catengine!  
+
+# example 👀
+Take a look at the example! You can run it on your android phone! ✌️  
+Just download the ExampleApp, import it into your Android Studio, plug in your phone and press play!  
+
+This game was made with catengine too:  
+https://play.google.com/store/apps/details?id=catgames.engine  
 
 # future updates 🔜
 + add automatic positions (screen independent) ✅  
