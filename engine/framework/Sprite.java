@@ -17,7 +17,6 @@ public class Sprite {
     boolean animation;          // to start the animation
     double timer;               // animationtimer
 
-
     public Sprite(int[] pictures, double duration) {
 
         // parameter update
@@ -32,19 +31,17 @@ public class Sprite {
 
     }
 
-
     public void startAnimation() {
         this.animation = true;
     }
 
-
     public void draw() {    // put this in your repeat()
 
         if (animation) {
-
+            
             if (timer < duration) {
 
-                timer += 0.01666666666;
+                timer += 0.01666666666; // 60times = 1sec
 
             } else {
 
@@ -74,7 +71,6 @@ public class Sprite {
         images.get(id).setY(y);
     }
 
-
     /* GET FUNCTIONS */
     public int getWidth(int id) {
         return images.get(id).getWidth();
@@ -82,7 +78,6 @@ public class Sprite {
     public int getHeight(int id) {
         return images.get(id).getHeight();
     }
-
 
     /* SCALE */
     public void scaleHalf() {
@@ -95,6 +90,5 @@ public class Sprite {
             images.get(i).scale();
         }
     }
-
 
 }
