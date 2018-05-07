@@ -8,8 +8,7 @@ import android.content.SharedPreferences;
 
 public class Device {
 
-    public static int screen_height;
-    public static int screen_width;
+    public static int screen_height, screen_width;
 
     /* Device specs */
     public static int get_screen_width() {
@@ -19,22 +18,21 @@ public class Device {
         return screen_height;
     }
 
-
     /* Save functions */
-    public static void setSaving(String file_name, int value) {
+    public static void setSavingInt(String file_name, int value) {
         SharedPreferences file = MainActivity.context.getSharedPreferences(file_name, 0);
         SharedPreferences.Editor editor = file.edit();
         editor.putInt(file_name, value);
         editor.commit();
     }
-    public static void setSaving(String file_name, boolean value) {
+    public static void setSavingBool(String file_name, boolean value) {
         SharedPreferences file = MainActivity.context.getSharedPreferences(file_name, 0);
         SharedPreferences.Editor editor = file.edit();
         if (value) { editor.putInt(file_name, 1); }
         else  { editor.putInt(file_name, 0); }
         editor.commit();
     }
-    public static int getSaving(String file_name) {
+    public static int getSavingInt(String file_name) {
         SharedPreferences file = MainActivity.context.getSharedPreferences(file_name, 0);
         return file.getInt(file_name, 0);
     }
@@ -46,6 +44,5 @@ public class Device {
             return true;
         }
     }
-
 
 }
