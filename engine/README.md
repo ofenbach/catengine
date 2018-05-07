@@ -1,7 +1,7 @@
 # Image.java
 Useful functions:  
   draw()  
-  scale() 
+  scale()  
   scale(double)  
   scaleFullscreen()  
   setAngle(int)  
