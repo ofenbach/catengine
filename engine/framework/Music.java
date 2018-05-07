@@ -18,13 +18,13 @@ import ofenbach.exampleapp.main.Settings;	// change this to your package name
 public class Music {
 
 	MediaPlayer mediaplayer;
-
 	int path;
+	
 	boolean isPrepared;
 
 	public Music(int path) {
 		
-		this.path = path;	// update path
+		this.path = path;
 
 		mediaplayer = new MediaPlayer();
 		mediaplayer = MediaPlayer.create(MainActivity.context, path); // load music
@@ -64,6 +64,5 @@ public class Music {
 		}
 		mediaplayer.release();
 	}
-	
 	
 }
