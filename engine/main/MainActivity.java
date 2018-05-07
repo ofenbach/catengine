@@ -33,13 +33,12 @@ import android.widget.RelativeLayout;
 
  */
 
-public class MainActivity extends Activity {
+/* Explanation: */
+/* The app starts here. */
+/* From here, the MainView starts and selects the screen to display */
 
-    /** ONLY CHANGE THIS IF YOU KNOW WHAT YOU ARE DOING! **/
-    
-    /* Explanation: */
-    /* The app starts here. */
-    /* From here, the MainView starts and selects the screen to display */
+/** DO NOT CHANGE THIS UNLESS YOU KNOW WHAT YOU ARE DOING! **/
+public class MainActivity extends Activity {
 
     RelativeLayout layout;
     MainView view;
@@ -59,6 +58,5 @@ public class MainActivity extends Activity {
         layout.addView(view);   // MainView starts
 
     }
-
 
 }
