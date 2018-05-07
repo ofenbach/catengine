@@ -6,10 +6,10 @@ import android.view.MotionEvent;
 /* @update:     25.4.2018       */
 /* @author:     Tim B. Ofenbach */
 
+/* Explanation: */
+/* touch-events can be accessed now from everywhere thanks to this class */
+
 public class TouchEvent {
-    
-    /* Explanation: */
-    /* touch-events can be accessed now from everywhere thanks to this class */
 
     public static MotionEvent touch_event;  // to access coordinations, action-event etc.
 
