@@ -25,3 +25,11 @@ Basic functions:
   play()  
   stop()  
   delete()  
+  
+# Device.java
++ get_screen_width(): int  
++ get_screen_height(): int  
++ setSavingInt(String, int) <- for saving numbers onto the device  
++ setSavingBool(bool) <- for saving bool values onto the device  
++ getSavingInt(String): int <- get int value of file (filename: parameter string)  
++ getSavingBool(String): bool <-same with bool  
