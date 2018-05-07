@@ -5,26 +5,19 @@ package ofenbach.exampleapp.main;	// change this to your package name
 /* @update:     28.4.2018       */
 /* @author:     Tim B. Ofenbach */
 
-public class Settings {
+/* Explanation: */
+/* You should also save your app settings (e.g. sound on) here. */
 
-    /* Explanation: */
-    /* You should also save your app settings (e.g. sound on) here. */
+public class Settings {
 
     public static boolean sound_on = Device.getSavingBool("sound_on");
 
-
-    public static void set_sound_enabled(boolean bool) {
-        sound_on = bool;
-        // save
-        if (bool) {
-            Device.setSaving("sound_on", 1);
-        } else {
-            Device.setSaving("sound_on", 0);
-        }
+    public static void set_sound_enabled(boolean sound_on) {
+        this.sound_on = sound_on;
+        Device.setSavingBool("sound_on", sound_on);
     }
     public static boolean sound_enabled() {
         return sound_on;
     }
-
 
 }
