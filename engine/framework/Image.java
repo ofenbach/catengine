@@ -22,28 +22,26 @@ import ofenbach.exampleapp.main.MainView;	// change this to your package name
 
 public class Image {
 
-	// Bitmap & Path
+	// File
 	Bitmap bitmap;
 	int path;
 	
-	// Position & Angle
-	public double x = 0;	// width: 1920
-	public double y = 0;	// height: 1080
+	// position & angle
+	public double x, y;
 	int angle;
 	
-	// Matrix & Paint (rotation & transparency)
+	// rotation & transparency
 	Matrix m;
 	Paint p;
 
 	// Gravity
-	public double gravity_factor;
-	public double gravity_timer;
+	public double gravity_factor, gravity_timer;
 
 	
 	/* CONSTRUCTOR */
 	public Image(int path) {
 
-		this.path = path;	// parameter update
+		this.path = path;
 
 		m = new Matrix();
 		p = new Paint();
@@ -59,29 +57,40 @@ public class Image {
 	/* DRAW */
 	public void draw() {
 		
-    	// Anglesettings
-    	m.reset();
-    	m.postRotate(angle, bitmap.getWidth() / 2, bitmap.getHeight() / 2);
-    	m.postTranslate((float) (x/1920)*Device.get_screen_width(), (float) (y/1080)*Device.get_screen_height());
+    		// Anglesettings
+    		m.reset();
+    		m.postRotate(angle, bitmap.getWidth() / 2, bitmap.getHeight() / 2);
+    		m.postTranslate((float) (x/1920)*Device.get_screen_width(), (float) (y/1080)*Device.get_screen_height());
 
-    	// Gravity
+    		// Gravity
 		if (gravity_factor != 0) {
 			this.applyGravity();
 		}
 
-	    // Draw
+	    	// Draw
 		MainView.global_canvas.drawBitmap(bitmap, m, p);
 	    
 	}
 	
 	
 	/* SCALING */
+	public void scale() {
+		
+		// Calculation
+		double ratio = (double) bitmap.getHeight() / (double) bitmap.getWidth();
+		double real_width = Device.get_screen_width() * ((double) bitmap.getWidth() / 480);
+		double real_height = real_width * ratio;;
+		
+		// Scaling
+		bitmap = Bitmap.createScaledBitmap(bitmap, (int) real_width, (int) real_height, false);
+		
+	}
 	public void scale(double factor) {
 		
 		// Calculation
-		double relativewidth = 1080 / (factor * bitmap.getWidth());
+		double relative_width = 1080 / (factor * bitmap.getWidth());
 		double ratio = (double) bitmap.getHeight() / (double) bitmap.getWidth();
-		double width = Device.get_screen_width() / relativewidth;
+		double width = Device.get_screen_width() / relative_width;
 		double height = ratio * width;
 		
 		// Scaling
@@ -91,33 +100,15 @@ public class Image {
 	public void scaleFullscreen() {
 		bitmap = Bitmap.createScaledBitmap(bitmap, Device.get_screen_width(), Device.get_screen_height(), false);
 	}
-	public void scale() {
-		
-		// Calculation
-		double ratio = (double) bitmap.getHeight() / (double) bitmap.getWidth();
-		double realwidth = Device.get_screen_width() * ((double) bitmap.getWidth()*2 / 480);
-		double realheight = realwidth * ratio;;
-		
-		// Scaling
-		bitmap = Bitmap.createScaledBitmap(bitmap, (int) realwidth, (int) realheight, false);
-		
-	}
-	public void scaleHalf() {
-
-		// Calculation
-		double ratio = (double) bitmap.getHeight() / (double) bitmap.getWidth();
-		double realwidth = Device.get_screen_width() * ((double) bitmap.getWidth() / 480);
-		double realheight = realwidth * ratio;;
-
-		// Scaling
-		bitmap = Bitmap.createScaledBitmap(bitmap, (int) realwidth, (int) realheight, false);
-
-	}
 	
 	
 	/* SET FUNCTIONS */
 	public void setAlpha(int alpha) {
 		p.setAlpha(alpha);
+	}
+	public void setTransparency(double percent) {
+		int real_value = (int) percent * 255;
+		p.setAlpha(real_value);
 	}
 	public void move(double distance) {
 
@@ -148,7 +139,7 @@ public class Image {
 		//this.y = Device.get_screen_height() / 2 - this.getHeight() / 2;	// old way: relative but still absolut
 		y = 1080 / 2 - getHeight() / 2;	// new way: relative/automatic
 	}
-	public void setRotation(double angle) {
+	public void setAngle(double angle) {
 		this.angle = (int) angle;
 		m.reset();
 		m.postRotate((int) angle, bitmap.getWidth() / 2, bitmap.getHeight() / 2);
@@ -212,17 +203,27 @@ public class Image {
 	public int getAlpha() {
 		return p.getAlpha();
 	}
-	public Bitmap getBitMap() {
+	public Bitmap getBitmap() {
 		return bitmap;
+	}
+	public boolean isInScreen() {
+		if (this.x > -this.getWidth() && this.x < Device.get_screen_width()) {
+			if (this.y > -this.getHeight() && this.y < Device.get_screen_height()) {
+				return true;
+			} else {
+				return false;
+			}
+		} else {
+			return false;
+		}
 	}
 	
 	
 	/* COLLISION */
 	public boolean collidesWith(Image image) {
-		
 		// See CollisionDetection.java
 		return CollisionDetection.isCollisionDetected(bitmap, (int) x, (int) y, image.bitmap, (int) image.x, (int) image.y);
-		
+	
 	}
 
 
@@ -236,20 +237,6 @@ public class Image {
 	}
 	public void increaseGravity(int increase) {
 		this.gravity_timer += increase;
-	}
-	
-	
-	/* ON SCREEN? */
-	public boolean isInScreen() {
-		if (this.x > -this.getWidth() && this.x < Device.get_screen_width()) {
-			if (this.y > -this.getHeight() && this.y < Device.get_screen_height()) {
-				return true;
-			} else {
-				return false;
-			}
-		} else {
-			return false;
-		}
 	}
 
 	
