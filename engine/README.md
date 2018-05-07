@@ -1,21 +1,27 @@
 # Image.java
-draw()  
-scale()  
-setAngle(int)  
-setAlpha(int)  
-getAngleTo(image): int  
-collidesWith(image): boolean  
+Useful functions:  
+  draw()  
+  scale() 
+  scale(double)  
+  scaleFullscreen()  
+  setAngle(int)  
+  setAlpha(int)  
+  getAngleTo(image): int  
+  collidesWith(image): boolean  
 
 # Button.java
-isPressed(): boolean  
+Same as Image.java but can register touch.  
+  isPressed(): boolean  
 
 # Music.java
-play()  
-pause()  
-stop()  
-delte()  
+Basic functions:  
+  play()  
+  pause()  
+  stop()  
+  delete()  
 
 # Sound.java
-play()  
-stop()  
-delete()  
+Basic functions:  
+  play()  
+  stop()  
+  delete()  
