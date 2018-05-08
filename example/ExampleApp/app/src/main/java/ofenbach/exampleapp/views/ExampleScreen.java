@@ -27,9 +27,7 @@ public class ExampleScreen extends Screen {
 
     Sprite particle;
 
-    double gravitytimer;    // for the players gravity
-    double sintimer = 0;    // for the ground animation
-
+    double gravitytimer, sintimer;    // for the players gravity
 
     public void load() {
 
@@ -44,15 +42,13 @@ public class ExampleScreen extends Screen {
 
         // Scale them like this (depending on your wish, use different scale functions, see Image.java)
         background.scaleFullscreen();
-        player.scaleHalf();             // scaleHalf because the png is twice its normal size (don't ask why)
+        player.scaleHalf();
         floor_1.scaleHalf();
         floor_2.scaleHalf();
         floor_3.scaleHalf();
         particle.scaleHalf();
 
         // Set your positions like this. Now works with the same resolution (virtual) on every device!
-        // e.g. player.setX(1920) would be on the far right.
-        // e.g. player.setY(300) would mean the player is at (300/1080=0.27) 27% screens height.
         player.setXtoMiddle();
         player.setYtoMiddle();
         floor_1.setX(0);
@@ -75,7 +71,7 @@ public class ExampleScreen extends Screen {
 
         // Bounce Check
         if  (player.y >= floor_2.y - floor_2.getHeight()) {
-            player.increaseGravity(-3);
+            player.setGravityTimer(-3);
             particle.startAnimation();
         }
 
@@ -99,12 +95,7 @@ public class ExampleScreen extends Screen {
     public void touchDown() {
         player.increaseGravity(1);
     }
-    public void touchUp() {
-
-    }
-    public void touchHold() {
-
-    }
-
+    public void touchUp() {}
+    public void touchHold() {}
 
 }
