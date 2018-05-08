@@ -38,7 +38,7 @@ If you feel like supporting my work, feel free to donate:
   
 Thank you! ❤️  
 
-# pro version 🏎️
+# pro version (NOT AVAILABLE ATM) 🏎️
 Another way to support me, is to buy the pro version for 5$ 
 + no watermark 🚱  
 + active development 🖥️  
