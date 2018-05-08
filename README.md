@@ -6,15 +6,12 @@ It is not recommenced to use this version in your release apps, as there will be
 See full changelog: engine/main/MainActivity.java  
 
 # new features 💪
+The update is done! I am working on bugfixes, stabilization etc. for the release.  
 + gravity support ✅  
 + save support ✅  
 + sprite support ✅  
 + automatic positions (resolution independent) ✅  
 + better touch functions ✅  
-+ IDE Documentation support ⚒️  
-
-# example 👀
-The new example has all the features that are available!  
 
 # guide 📖
 1. Download the engine folder.  
@@ -22,6 +19,9 @@ The new example has all the features that are available!
 3. Fix the imports depending on your app/package name.  
 4. Create GameStart.java to load your screens.  
 6. Your app now runs catengine developer edition!  
+
+# example 👀
+The new example has all the features that are available!  
 
 # planned features 🤔
 + GUI version 😍  
