@@ -238,6 +238,9 @@ public class Image {
 	public void increaseGravity(int increase) {
 		this.gravity_timer += increase;
 	}
+	public void setGravityTimer(int value) {
+		this.gravity_timer = value;
+	}
 
 	
 	/* DELETE */
