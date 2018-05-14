@@ -6,7 +6,7 @@ package ofenbach.exampleapp.main;	// change this to your package name
 /* @author:     Tim B. Ofenbach */
 
 /* Explanation: */
-/* only saves which screen_id to display */
+/* Saves which screen to display. */
 /* MainView displays Screen.children[Camera.currentscreen_id] */
 
 public class Camera {
