@@ -5,8 +5,8 @@ import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.graphics.Paint;
 
-import ofenbach.exampleapp.main.Device;
-import ofenbach.exampleapp.main.MainActivity;
+import ofenbach.exampleapp.main.Device;		// change this to your package name
+import ofenbach.exampleapp.main.MainActivity;	// change this to your package name
 import ofenbach.exampleapp.main.MainView;	// change this to your package name
 
 /* able to display .png pictures*/
@@ -22,7 +22,7 @@ import ofenbach.exampleapp.main.MainView;	// change this to your package name
 
 public class Image {
 
-	// File
+	// file
 	Bitmap bitmap;
 	int path;
 	
@@ -34,66 +34,63 @@ public class Image {
 	Matrix m;
 	Paint p;
 
-	// Gravity
+	// gravity
 	public double gravity_factor, gravity_timer;
-
 	
 	/* CONSTRUCTOR */
 	public Image(int path) {
 
-		this.path = path;
+		this.path = path;	// save path
 
-		m = new Matrix();
+		m = new Matrix();	// initialize everything
 		p = new Paint();
 		
-		// Bitmap Creation
+		// bitmap creation
 		BitmapFactory.Options options = new BitmapFactory.Options();
 		options.inScaled = false;
 		bitmap = BitmapFactory.decodeResource(MainActivity.context.getResources(), path, options);
 		
 	}
 	
-	
 	/* DRAW */
 	public void draw() {
 		
-    		// Anglesettings
+    		// angle & position settings
     		m.reset();
     		m.postRotate(angle, bitmap.getWidth() / 2, bitmap.getHeight() / 2);
     		m.postTranslate((float) (x/1920)*Device.get_screen_width(), (float) (y/1080)*Device.get_screen_height());
 
-    		// Gravity
+    		// apply gravity
 		if (gravity_factor != 0) {
 			this.applyGravity();
 		}
 
-	    	// Draw
+	    	// draw
 		MainView.global_canvas.drawBitmap(bitmap, m, p);
 	    
 	}
 	
-	
 	/* SCALING */
 	public void scale() {
 		
-		// Calculation
+		// calculation
 		double ratio = (double) bitmap.getHeight() / (double) bitmap.getWidth();
 		double real_width = Device.get_screen_width() * ((double) bitmap.getWidth() / 480);
 		double real_height = real_width * ratio;;
 		
-		// Scaling
+		// scaling
 		bitmap = Bitmap.createScaledBitmap(bitmap, (int) real_width, (int) real_height, false);
 		
 	}
 	public void scale(double factor) {
 		
-		// Calculation
+		// calculation
 		double relative_width = 1080 / (factor * bitmap.getWidth());
 		double ratio = (double) bitmap.getHeight() / (double) bitmap.getWidth();
 		double width = Device.get_screen_width() / relative_width;
 		double height = ratio * width;
 		
-		// Scaling
+		// scaling
 		bitmap = Bitmap.createScaledBitmap(bitmap, (int) width, (int) height, false);
 		
 	}
@@ -101,22 +98,21 @@ public class Image {
 		bitmap = Bitmap.createScaledBitmap(bitmap, Device.get_screen_width(), Device.get_screen_height(), false);
 	}
 	
-	
 	/* SET FUNCTIONS */
 	public void setAlpha(int alpha) {
 		p.setAlpha(alpha);
 	}
 	public void setTransparency(double percent) {
-		int real_value = (int) percent * 255;
+		int real_value = (int) percent * 255;	// conversion from percent to 0-255
 		p.setAlpha(real_value);
 	}
 	public void move(double distance) {
 
-		// Calculation
+		// calculation
 		double distanceX = distance * Math.sin(angle);
 		double distanceY = distance * Math.cos(angle);
 
-		// Update X Y
+		// update x y
 		x += distanceX;
 		y += distanceY;
 
@@ -129,14 +125,14 @@ public class Image {
 		this.x = xPos;
 	}
 	public void setXtoMiddle() {
-		//this.x = Device.get_screen_width() / 2 - this.getWidth() / 2;		// old way
+		// old way: this.x = Device.get_screen_width() / 2 - this.getWidth() / 2;
 		x = 1920 / 2 - getWidth() / 2;
 	}
 	public void setY(double yPos) {
 		this.y = yPos;
 	}
 	public void setYtoMiddle() {
-		//this.y = Device.get_screen_height() / 2 - this.getHeight() / 2;	// old way: relative but still absolut
+		//old way: this.y = Device.get_screen_height() / 2 - this.getHeight() / 2;
 		y = 1080 / 2 - getHeight() / 2;	// new way: relative/automatic
 	}
 	public void setAngle(double angle) {
@@ -145,7 +141,6 @@ public class Image {
 		m.postRotate((int) angle, bitmap.getWidth() / 2, bitmap.getHeight() / 2);
 		m.postTranslate((int) x, (int) y);
 	}
-	
 	
 	/* GET FUNCTIONS */
 	public double getX() {
@@ -165,6 +160,8 @@ public class Image {
 	}
 	public double getAngleTo(Image image) {
 
+		/* outdated, works but not recommended to use. */
+		
 		// Vars
 		double delta_x;
 		double delta_y;
@@ -207,25 +204,14 @@ public class Image {
 		return bitmap;
 	}
 	public boolean isInScreen() {
-		if (this.x > -this.getWidth() && this.x < Device.get_screen_width()) {
-			if (this.y > -this.getHeight() && this.y < Device.get_screen_height()) {
-				return true;
-			} else {
-				return false;
-			}
-		} else {
-			return false;
-		}
+		return (this.x > -this.getWidth() && this.x < Device.get_screen_width() && this.y > -this.getHeight() && this.y < Device.get_screen_height());
 	}
-	
 	
 	/* COLLISION */
 	public boolean collidesWith(Image image) {
 		// See CollisionDetection.java
 		return CollisionDetection.isCollisionDetected(bitmap, (int) x, (int) y, image.bitmap, (int) image.x, (int) image.y);
-	
 	}
-
 
 	/* GRAVITY */
 	public void setGravity(double factor) {	// e.g. factor=9.81, factor = 0 -> false, factor != 0 -> true
@@ -241,12 +227,10 @@ public class Image {
 	public void setGravityTimer(int value) {
 		this.gravity_timer = value;
 	}
-
 	
 	/* DELETE */
 	public void delete() {
 		bitmap.recycle();
 	}
-
 
 }
