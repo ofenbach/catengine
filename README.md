@@ -33,7 +33,7 @@ https://play.google.com/store/apps/details?id=catgames.engine
 + savings support ✅  
 + add IDE documentation support ⚒️  
 
-It is possible to test out some new features that aren't public yet, check out the develop-branche!  
+**It is possible to test out some new features that aren't public yet, check out the develop-branche!**  
 
 # donations 💸
 If you feel like supporting my work, feel free to donate:  
