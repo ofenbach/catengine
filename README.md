@@ -16,6 +16,14 @@ GIF HERE -> installation gif short (5-10 sec)
 
 alternative: small gifs showing features. code gif?
 
+# pro version (NOT AVAILABLE ATM) 🏎️
+Another way to support me, is to buy the pro version for 5$ 
++ no watermark 🚱  
++ active development 🖥️  
++ sprite support 🖼️  
++ save support 💾  
++ complete engine documentation 📚  
+
 # donations 💸
 If you feel like supporting my work, feel free to donate:  
 
