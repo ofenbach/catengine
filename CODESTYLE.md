@@ -60,6 +60,3 @@ boolean isXGreaterThan5 (int x) {
     return x > 5;
 }
 ```
-
-## Enums
-* Use enum class, not regular enums!
