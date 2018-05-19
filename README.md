@@ -1,18 +1,17 @@
 # catengine developer edition 😼
 Welcome to the developer-branch!  
 From here you can check out some of the new features that aren't available yet.  
-It is not recommenced to use this version in your release apps, as there will be bugs.  
 
 See full changelog: engine/main/MainActivity.java  
 
 # new features 💪
-The update is done! I am working on bugfixes, stabilization etc. for the release.  
+The update is done! Release coming soon.  
 + gravity support ✅  
 + save support ✅  
 + sprite support ✅  
-+ automatic positions (resolution independent) ✅  
++ automatic positions ✅  
 + better touch functions ✅  
-+ improved github doc ✅  
++ improved codestyle ✅  
 
 # guide 📖
 1. Download the engine folder.  
@@ -22,9 +21,10 @@ The update is done! I am working on bugfixes, stabilization etc. for the release
 6. Your app now runs catengine developer edition!  
 
 # example 👀
-The new example has all the features that are available!  
+The example contains all new features that are available!  
 
 # planned features 🤔
+Here's a list of features that will be implemented one day:  
 + GUI version 😍  
   + simple drag&drop to create apps 🖱️  
   + simple kid-friendly coding 👶  
